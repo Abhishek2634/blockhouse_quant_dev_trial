@@ -1,0 +1,35 @@
+# Compiled binaries
+orderbook
+run_tests
+benchmark_exe
+benchmark
+
+# Object files
+*.o
+*.obj
+
+# Generated output files
+output_mbp.csv
+*.csv
+!data/mbo.csv
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
